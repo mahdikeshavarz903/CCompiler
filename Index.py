@@ -801,7 +801,7 @@ def p_error(p):
 
 yacc.yacc()
 if __name__ == "__main__":
-    file = open("example/input.txt", "r")
+    file = open("input.txt", "r")
     data = file.read()
     res = yacc.parse(data)
     print("********************************************************\n")
